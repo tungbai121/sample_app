@@ -2,28 +2,44 @@ vi:
   base_title: Ruby on Rails Tutorial Sample App
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
-      en: "Tiếng Anh"
-      vi: "Tiếng Việt"
+      en: Tiếng Anh
+      vi: Tiếng Việt
+    footer:
+      about: Giới thiệu
+      author: Michael Hartl
+      contact: Liên hệ
+      news: Tin tức
+      rortut: Ruby on Rails Tutorial
+    header:
+      app_name: Sample App
+      help: Trợ giúp
+      home: Trang chủ
+      login: Đăng nhập
   static_pages:
-    home:
-      title: "Trang chủ"
-      h1: "Sample App"
-      rortut: "Ruby on Rails Tutorial"
-    help:
-      title: "Trợ giúp"
-      h1: "Trợ giúp"
-      help: "Help"
-      book: "Book"
     about:
-      title: "Giới thiệu"
-      h1: "Giới thiệu"
-      rortut: "Ruby on Rails Tutorial"
-      learnenough: "Learn Enough"
-      book: "Book"
-      screencasts: "Screencasts"
-      ror: "Ruby on Rails"
+      book: Book
+      h1: Giới thiệu
+      learnenough: Learn Enough
+      ror: Ruby on Rails
+      rortut: Ruby on Rails Tutorial
+      screencasts: Screencasts
+      title: Giới thiệu
     contact:
-      title: "Liên hệ"
-      h1: "Liên hệ"
-      contact: "Contact"
+      contact: Contact
+      h1: Liên hệ
+      title: Liên hệ
+    help:
+      book: Book
+      h1: Trợ giúp
+      help: Help
+      title: Trợ giúp
+    home:
+      rortut: Ruby on Rails Tutorial
+      signup: Đăng ký ngay!
+      title: Trang chủ
+      welcome: Chào mừng bạn đến với Sample App
+  users:
+    new:
+      title: Đăng ký
+      signup: Đăng ký
+      description: Đây sẽ là trang đăng ký cho những người dùng mới.
