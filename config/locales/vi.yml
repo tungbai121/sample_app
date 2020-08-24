@@ -1,0 +1,28 @@
+vi:
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      h1: "Sample App"
+      rortut: "Ruby on Rails Tutorial"
+    help:
+      title: "Trợ giúp"
+      h1: "Trợ giúp"
+      help: "Help"
+      book: "Book"
+    about:
+      title: "Giới thiệu"
+      h1: "Giới thiệu"
+      rortut: "Ruby on Rails Tutorial"
+      learnenough: "Learn Enough"
+      book: "Book"
+      screencasts: "Screencasts"
+      ror: "Ruby on Rails"
+    contact:
+      title: "Liên hệ"
+      h1: "Liên hệ"
+      contact: "Contact"
