@@ -2,28 +2,44 @@ en:
   base_title: Ruby on Rails Tutorial Sample App
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
-      en: "English"
-      vi: "Vietnamese"
-  static_pages:
-    home:
-      title: "Home"
-      h1: "Sample App"
-      rortut: "Ruby on Rails Tutorial"
-    help:
-      title: "Help"
-      h1: "Help"
-      help: "Help"
-      book: "Book"
-    about:
-      title: "About"
-      h1: "About"
-      rortut: "Ruby on Rails Tutorial"
-      learnenough: "Learn Enough"
-      book: "Book"
-      screencasts: "Screencasts"
-      ror: "Ruby on Rails"
-    contact:
-      title: "Contact"
-      h1: "Contact"
+      en: English
+      vi: Vietnamese
+    footer:
+      about: About
+      author: Michael Hartl
       contact: Contact
+      news: News
+      rortut: Ruby on Rails Tutorial
+    header:
+      app_name: Sample App
+      help: Help
+      home: Home
+      login: Log in
+  static_pages:
+    about:
+      book: Book
+      h1: About
+      learnenough: Learn Enough
+      ror: Ruby on Rails
+      rortut: Ruby on Rails Tutorial
+      screencasts: Screencasts
+      title: About
+    contact:
+      contact: Contact
+      h1: Contact
+      title: Contact
+    help:
+      book: Book
+      h1: Help
+      help: Help
+      title: Help
+    home:
+      rortut: Ruby on Rails Tutorial
+      signup: Sign up now!
+      title: Home
+      welcome: Welcome to the Sample App
+  users:
+    new:
+      title: Sign up
+      signup: Sign up
+      description: This will be a signup page for new users.

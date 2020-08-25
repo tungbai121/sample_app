@@ -1,5 +1,9 @@
-<% provide :title, t(".title") %>
-<h1><%= t ".h1" %></h1>
-<p>
-  <%= link_to t(".rortut"), Settings.url.railstut %>
-</p>
+<div>
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= link_to t(".rortut"), Settings.url.railstut %>
+  </h2>
+  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"), Settings.url.ror %>
