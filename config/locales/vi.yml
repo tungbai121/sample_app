@@ -1,5 +1,7 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
+  welcome: Chào mừng bạn đến với Sample App!
+  unsuccess: Đăng ký không thành công!
   layouts:
     application:
       en: Tiếng Anh
@@ -15,6 +17,9 @@ vi:
       help: Trợ giúp
       home: Trang chủ
       login: Đăng nhập
+  shared:
+    error_messages:
+      the_form_contains: The form contains
   static_pages:
     about:
       book: Book
@@ -40,6 +45,9 @@ vi:
       welcome: Chào mừng bạn đến với Sample App
   users:
     new:
+      confirmation: Xác thực mật khẩu
+      create_account: Tạo tài khoản
+      name: Họ tên
+      password: Mật khẩu
       title: Đăng ký
       signup: Đăng ký
-      description: Đây sẽ là trang đăng ký cho những người dùng mới.
