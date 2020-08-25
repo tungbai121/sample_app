@@ -39,6 +39,7 @@ yarn-debug.log*
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 /test
+/node_modules
 /config/credentials.yml.enc
 /config/database.yml
 

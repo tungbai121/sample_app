@@ -47,7 +47,7 @@ p {
   line-height: 1.7em;
 }
 
-#logo {
+#logo_link {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -61,6 +61,10 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+
+#logo_image {
+  width: 200px
 }
 
 footer {

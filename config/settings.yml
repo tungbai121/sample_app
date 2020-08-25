@@ -1,10 +1,18 @@
 url:
-  railstut: https://www.railstutorial.org
   book: https://www.railstutorial.org/book
   contact: https://www.railstutorial.org/contact
   help: https://www.railstutorial.org/help
-  news: https://news.railstutorial.org
   learnenough: https://www.learnenough.com
-  screencasts: https://screencasts.railstutorial.org
-  ror: https://rubyonrails.org
   michaelhartl: https://www.michaelhartl.com
+  news: https://news.railstutorial.org
+  railstut: https://www.railstutorial.org
+  ror: https://rubyonrails.org
+  screencasts: https://screencasts.railstutorial.org
+user:
+  email:
+    length: 255
+    regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+  name:
+    length: 50
+  password:
+    length: 6
