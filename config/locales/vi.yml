@@ -1,7 +1,8 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
-  welcome: Chào mừng bạn đến với Sample App!
+  invalid: Email/password không hợp lệ!
   unsuccess: Đăng ký không thành công!
+  welcome: Chào mừng bạn đến với Sample App!
   layouts:
     application:
       en: Tiếng Anh
@@ -13,10 +14,21 @@ vi:
       news: Tin tức
       rortut: Ruby on Rails Tutorial
     header:
+      account: Tài khoản
       app_name: Sample App
       help: Trợ giúp
       home: Trang chủ
       login: Đăng nhập
+      logout: Đăng xuất
+      profile: Hồ sơ
+      settings: Cài đặt
+  sessions:
+    new:
+      h1: Đăng nhập
+      login: Đăng nhập
+      new_user: Người dùng mới?
+      signup: Đăng ký ngay!
+      title: Đăng nhập
   shared:
     error_messages:
       the_form_contains: The form contains
