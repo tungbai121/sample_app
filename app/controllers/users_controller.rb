@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  def show
-    @user = User.find params[:id]
-  end
+  before_action :load_user, only: %i(show edit)
+
+  def show; end
 
   def new
     @user = User.new
@@ -19,9 +19,19 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit; end
+
   private
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
+  end
+
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t "user_not_found"
+    redirect_to root_url
   end
 end
