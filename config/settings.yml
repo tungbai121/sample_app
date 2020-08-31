@@ -17,3 +17,5 @@ user:
     length: 50
   password:
     length: 6
+session:
+  remember: 1

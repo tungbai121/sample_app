@@ -1,8 +1,6 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
   invalid: Email/password không hợp lệ!
-  unsuccess: Đăng ký không thành công!
-  welcome: Chào mừng bạn đến với Sample App!
   layouts:
     application:
       en: Tiếng Anh
@@ -27,6 +25,7 @@ vi:
       h1: Đăng nhập
       login: Đăng nhập
       new_user: Người dùng mới?
+      remember_me: Ghi nhớ đăng nhập?
       signup: Đăng ký ngay!
       title: Đăng nhập
   shared:
@@ -55,11 +54,14 @@ vi:
       signup: Đăng ký ngay!
       title: Trang chủ
       welcome: Chào mừng bạn đến với Sample App
+  unsuccess: Đăng ký không thành công!
   users:
     new:
       confirmation: Xác thực mật khẩu
       create_account: Tạo tài khoản
       name: Họ tên
       password: Mật khẩu
-      title: Đăng ký
       signup: Đăng ký
+      title: Đăng ký
+  user_not_found: Không tìm thấy người dùng!
+  welcome: Chào mừng bạn đến với Sample App!

@@ -1,8 +1,6 @@
 en:
   base_title: Ruby on Rails Tutorial Sample App
   invalid: Invalid email/password combination!
-  unsuccess: Register is unsuccessful!
-  welcome: Welcome to the Sample App!
   layouts:
     application:
       en: English
@@ -27,6 +25,7 @@ en:
       h1: Log in
       login: Log in
       new_user: New user?
+      remember_me: Remember me on this computer?
       signup: Sign up now!
       title: Log in
   shared:
@@ -55,11 +54,14 @@ en:
       signup: Sign up now!
       title: Home
       welcome: Welcome to the Sample App
+  unsuccess: Register is unsuccessful!
   users:
     new:
       confirmation: Password confirmation
       create_account: Create account
       name: Name
       password: Password
-      title: Sign up
       signup: Sign up
+      title: Sign up
+  user_not_found: User not found!
+  welcome: Welcome to the Sample App!
