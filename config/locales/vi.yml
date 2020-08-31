@@ -1,5 +1,7 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
+  destroy_fail: Xóa thất bại!
+  destroy_success: Xóa thành công!
   invalid: Email/password không hợp lệ!
   layouts:
     application:
@@ -12,7 +14,6 @@ vi:
       news: Tin tức
       rortut: Ruby on Rails Tutorial
     header:
-      account: Tài khoản
       app_name: Sample App
       help: Trợ giúp
       home: Trang chủ
@@ -20,6 +21,9 @@ vi:
       logout: Đăng xuất
       profile: Hồ sơ
       settings: Cài đặt
+      users: Người dùng
+  please_log_in: Please log in.
+  profile_updated: Cập nhật thành công
   sessions:
     new:
       h1: Đăng nhập
@@ -55,13 +59,26 @@ vi:
       title: Trang chủ
       welcome: Chào mừng bạn đến với Sample App
   unsuccess: Đăng ký không thành công!
+  update_fails: Cập nhật thất bại
   users:
-    new:
-      confirmation: Xác thực mật khẩu
-      create_account: Tạo tài khoản
+    edit:
+      change: Thay đổi
+      save_changes: Lưu thay đổi
+      title: Sửa người dùng
+      update: Cập nhật thông tin cá nhân
+    form:
+      confirmation: Xác nhận mật khẩu
       name: Họ tên
       password: Mật khẩu
+    index:
+      all_users: Danh sách người dùng
+      title: Danh sách người dùng
+    new:
+      create_account: Tạo tài khoản
       signup: Đăng ký
       title: Đăng ký
+    user:
+      delete: Xóa
+      sure: Bạn chắc chứ?
   user_not_found: Không tìm thấy người dùng!
   welcome: Chào mừng bạn đến với Sample App!
