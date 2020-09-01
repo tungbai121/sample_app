@@ -1,5 +1,7 @@
 en:
   base_title: Ruby on Rails Tutorial Sample App
+  destroy_fail: Delete failed!
+  destroy_success: Deleted successfully!
   invalid: Invalid email/password combination!
   layouts:
     application:
@@ -12,7 +14,6 @@ en:
       news: News
       rortut: Ruby on Rails Tutorial
     header:
-      account: Account
       app_name: Sample App
       help: Help
       home: Home
@@ -20,6 +21,9 @@ en:
       logout: Log out
       profile: Profile
       settings: Settings
+      users: Users
+  please_log_in: Please log in.
+  profile_updated: Profile updated
   sessions:
     new:
       h1: Log in
@@ -55,13 +59,26 @@ en:
       title: Home
       welcome: Welcome to the Sample App
   unsuccess: Register is unsuccessful!
+  update_fail: Update failed
   users:
-    new:
+    edit:
+      change: Change
+      save_changes: Save changes
+      title: Edit user
+      update: Update your profile
+    form:
       confirmation: Password confirmation
-      create_account: Create account
       name: Name
       password: Password
+    index:
+      all_users: All users
+      title: All users
+    new:
+      create_account: Create account
       signup: Sign up
       title: Sign up
+    user:
+      delete: Delete
+      sure: You sure?
   user_not_found: User not found!
   welcome: Welcome to the Sample App!
