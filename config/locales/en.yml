@@ -1,8 +1,12 @@
 en:
+  account_activation: Account activation
+  activated: Account activated!
   base_title: Ruby on Rails Tutorial Sample App
+  check_email: Please check your email to activate your account.
   destroy_fail: Delete failed!
   destroy_success: Deleted successfully!
   invalid: Invalid email/password combination!
+  invalid_activation: Invalid activation link!
   layouts:
     application:
       en: English
@@ -58,6 +62,7 @@ en:
       signup: Sign up now!
       title: Home
       welcome: Welcome to the Sample App
+  unactivated: Account unactivated.
   unsuccess: Register is unsuccessful!
   update_fail: Update failed
   users:
@@ -80,5 +85,12 @@ en:
     user:
       delete: Delete
       sure: You sure?
+  user_mailer:
+    account_activation:
+      activate: Activate
+      hi: Hi
+      title: Sample App
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
   user_not_found: User not found!
+  warning_activate: Account not activated. Check your email for the activation link.
   welcome: Welcome to the Sample App!
