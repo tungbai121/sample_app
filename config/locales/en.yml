@@ -2,11 +2,16 @@ en:
   account_activation: Account activation
   activated: Account activated!
   base_title: Ruby on Rails Tutorial Sample App
+  cant_empty: can't be empty
   check_email: Please check your email to activate your account.
   destroy_fail: Delete failed!
   destroy_success: Deleted successfully!
+  email_not_found: Email address not found!
+  email_sent: Email sent with password reset instructions.
+  expired: Password reset has expired.
   invalid: Invalid email/password combination!
   invalid_activation: Invalid activation link!
+  invalid_user: Invalid user
   layouts:
     application:
       en: English
@@ -26,10 +31,26 @@ en:
       profile: Profile
       settings: Settings
       users: Users
+  not_found_user: User not found
+  password_reset: Password reset
+  password_resets:
+    edit:
+      confirmation: Password confirmation
+      h1: Reset password
+      password: Password
+      title: Reset password
+      update_password: Update password
+    new:
+      h1: Forgot password
+      submit: Submit
+      title: Forgot password
   please_log_in: Please log in.
   profile_updated: Profile updated
+  reset_failed: Password reset failed
+  reset_successfully: Password has been reset
   sessions:
     new:
+      forgot_password: (forgot passowrd)
       h1: Log in
       login: Log in
       new_user: New user?
@@ -91,6 +112,12 @@ en:
       hi: Hi
       title: Sample App
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset:
+      click_link: "To reset your password click the link below:"
+      expire: This link will expire in two hours.
+      ignore: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
+      reset_password: Reset password
+      title: Password reset
   user_not_found: User not found!
   warning_activate: Account not activated. Check your email for the activation link.
   welcome: Welcome to the Sample App!

@@ -2,11 +2,16 @@ vi:
   account_activation: Kích hoạt tài khoản
   activated: Kích hoạt tài khoản thành công!
   base_title: Ruby on Rails Tutorial Sample App
+  cant_empty: không được để trống
   check_email: Vui lòng kiểm tra email để kích hoạt tài khoản.
   destroy_fail: Xóa thất bại!
   destroy_success: Xóa thành công!
+  email_not_found: Email không tồn tại!
+  email_sent: Yêu cầu đã được gửi đi, vui lòng kiểm tra email để lấy lại mật khẩu.
+  expired: Liên kết đã hết hạn.
   invalid: Email/password không hợp lệ!
   invalid_activation: Liên kết kích hoạt tài khoản không hợp lệ!
+  invalid_user: Người dùng không hợp lệ
   layouts:
     application:
       en: Tiếng Anh
@@ -26,10 +31,26 @@ vi:
       profile: Hồ sơ
       settings: Cài đặt
       users: Người dùng
+  not_found_user: Người dùng không tồn tại
+  password_reset: Yêu cầu lấy lại mật khẩu
+  password_resets:
+    edit:
+      confirmation: Xác nhận mật khẩu
+      h1: Lấy lại mật khẩu
+      password: Mật khẩu
+      title: Lấy lại mật khẩu
+      update_password: Cập nhật mật khẩu
+    new:
+      h1: Quên mật khẩu
+      submit: Lấy lại mật khẩu
+      title: Quên mật khẩu
   please_log_in: Please log in.
   profile_updated: Cập nhật thành công
+  reset_failed: Cập nhật mật khẩu thất bại
+  reset_successfully: Cập nhật mật khẩu mới thành công
   sessions:
     new:
+      forgot_password: (quên mật khẩu)
       h1: Đăng nhập
       login: Đăng nhập
       new_user: Người dùng mới?
@@ -91,6 +112,12 @@ vi:
       hi: Chào
       title: Sample App
       welcome: "Chào mừng bạn đến với Sample App! Click vào đường link phía dưới để kích hoạt tài khoản:"
+    password_reset:
+      click_link: "Để lấy lại mật khẩu, nhấn vào liên kết phía dưới:"
+      expire: Liên kế này sẽ hết hạn sau 2 giờ đồng hồ.
+      ignore: Nếu bạn không yêu cầu lấy lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn vẫn được giữ nguyên.
+      reset_password: Lấy lại mật khẩu
+      title: Lấy lại mật khẩu
   user_not_found: Không tìm thấy người dùng!
   warning_activate: Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để lấy liên kết kích hoạt.
   welcome: Chào mừng bạn đến với Sample App!
