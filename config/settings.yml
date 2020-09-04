@@ -24,4 +24,4 @@ user:
   password:
     length: 6
 session:
-  remember: 1
+  remember: "1"
