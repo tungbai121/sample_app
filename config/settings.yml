@@ -23,5 +23,6 @@ user:
     length: 50
   password:
     length: 6
+    expire_time: 2
 session:
   remember: "1"
