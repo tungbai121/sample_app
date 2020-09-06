@@ -1,6 +1,15 @@
 gravatar:
   default_size: 80
   size: 50
+image:
+  accept_types: "image/jpeg,image/gif,image/png"
+  height: 500
+  size: 5
+  types: ["image/jpeg", "image/gif", "image/png"]
+  width: 500
+micropost:
+  content:
+    length: 140
 paging:
   size: 20
 url:
