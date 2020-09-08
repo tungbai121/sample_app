@@ -31,6 +31,20 @@ en:
       profile: Profile
       settings: Settings
       users: Users
+  microposts:
+    correct_user:
+      user_invalid: User invalid
+    create:
+        created: Micropost created
+        create_failed: Micropost create failed
+    destroy:
+      deleted: Micropost deleted
+      delete_failed: Micropost delete failed
+    micropost:
+      delete: Delete
+      posted_time: "Posted %{time} ago."
+      sure: You sure?
+  must_be_valid_format: must be a valid image format
   not_found_user: User not found
   password_reset: Password reset
   password_resets:
@@ -60,6 +74,13 @@ en:
   shared:
     error_messages:
       the_form_contains: The form contains
+    micropost_form:
+      alert_image_size: Maximum file size is %{limit_size}MB. Please choose a smaller file.
+      compose_new_post: Compose new micropost...
+      post: Post
+    user_info:
+      view_profile: View profile
+  should_be_less_than: "should be less than %{limit_size}MB"
   static_pages:
     about:
       book: Book
@@ -79,6 +100,7 @@ en:
       help: Help
       title: Help
     home:
+      micropost_feed: Micropost feed
       rortut: Ruby on Rails Tutorial
       signup: Sign up now!
       title: Home
@@ -106,6 +128,8 @@ en:
     user:
       delete: Delete
       sure: You sure?
+    show:
+      microposts: Microposts
   user_mailer:
     account_activation:
       activate: Activate
@@ -121,3 +145,8 @@ en:
   user_not_found: User not found!
   warning_activate: Account not activated. Check your email for the activation link.
   welcome: Welcome to the Sample App!
+
+  activerecord:
+    attributes:
+      micropost:
+        content: Content

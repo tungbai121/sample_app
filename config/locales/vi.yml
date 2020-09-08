@@ -31,6 +31,20 @@ vi:
       profile: Hồ sơ
       settings: Cài đặt
       users: Người dùng
+  microposts:
+    correct_user:
+      user_invalid: User invalid
+    create:
+        created: Đăng thành công
+        create_failed: Đăng thất bại
+    destroy:
+      deleted: Xoá thành công
+      delete_failed: Xoá thất bại
+    micropost:
+      delete: Xoá
+      posted_time: "%{time} trước."
+      sure: Chắc chứ?
+  must_be_valid_format: must be a valid image format
   not_found_user: Người dùng không tồn tại
   password_reset: Yêu cầu lấy lại mật khẩu
   password_resets:
@@ -60,6 +74,13 @@ vi:
   shared:
     error_messages:
       the_form_contains: The form contains
+    micropost_form:
+      alert_image_size: Kích thước ảnh giới hạn là %{limit_size}MB. Vui lòng chọn ảnh có kích thước nhỏ hơn.
+      compose_new_post: Soạn post mới...
+      post: Đăng
+    user_info:
+      view_profile: Xem hồ sơ
+  should_be_less_than: "phải nhỏ hơn %{limit_size}MB"
   static_pages:
     about:
       book: Book
@@ -79,6 +100,7 @@ vi:
       help: Help
       title: Trợ giúp
     home:
+      micropost_feed: Micropost feed
       rortut: Ruby on Rails Tutorial
       signup: Đăng ký ngay!
       title: Trang chủ
@@ -106,6 +128,8 @@ vi:
     user:
       delete: Xóa
       sure: Bạn chắc chứ?
+    show:
+      microposts: Microposts
   user_mailer:
     account_activation:
       activate: Kích hoạt
@@ -121,3 +145,8 @@ vi:
   user_not_found: Không tìm thấy người dùng!
   warning_activate: Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để lấy liên kết kích hoạt.
   welcome: Chào mừng bạn đến với Sample App!
+
+  activerecord:
+    attributes:
+      micropost:
+        content: Nội dung

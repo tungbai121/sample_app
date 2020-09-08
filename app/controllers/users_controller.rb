@@ -9,10 +9,15 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user.activated?
-
-    flash[:danger] = t "unactivated"
-    redirect_to root_url
+    if @user.activated?
+      @microposts = @user.microposts
+                         .order_by_created_at
+                         .page(params[:page])
+                         .per Settings.paging.size
+    else
+      flash[:danger] = t "unactivated"
+      redirect_to root_url
+    end
   end
 
   def new
@@ -53,15 +58,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-
-    flash[:danger] = t "please_log_in"
-    redirect_to login_url
-  end
 
   def correct_user
     redirect_to root_url unless current_user? @user
