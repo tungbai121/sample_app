@@ -14,6 +14,10 @@ class Micropost < ApplicationRecord
   has_one_attached :image
 
   scope :order_by_created_at, ->{order created_at: :desc}
+  scope :feed, (lambda do |user_id|
+    where(user_id: Relationship.following_ids(user_id))
+    .or(where(user_id: user_id))
+  end)
 
   def display_image
     image.variant resize_to_limit: [Settings.image.width, Settings.image.height]

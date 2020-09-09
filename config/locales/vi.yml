@@ -1,6 +1,10 @@
 vi:
   account_activation: Kích hoạt tài khoản
   activated: Kích hoạt tài khoản thành công!
+  activerecord:
+    attributes:
+      micropost:
+        content: Nội dung
   base_title: Ruby on Rails Tutorial Sample App
   cant_empty: không được để trống
   check_email: Vui lòng kiểm tra email để kích hoạt tài khoản.
@@ -9,6 +13,10 @@ vi:
   email_not_found: Email không tồn tại!
   email_sent: Yêu cầu đã được gửi đi, vui lòng kiểm tra email để lấy lại mật khẩu.
   expired: Liên kết đã hết hạn.
+  followers:
+    followers: Followers
+  followings:
+    following: Following
   invalid: Email/password không hợp lệ!
   invalid_activation: Liên kết kích hoạt tài khoản không hợp lệ!
   invalid_user: Người dùng không hợp lệ
@@ -35,11 +43,11 @@ vi:
     correct_user:
       user_invalid: User invalid
     create:
-        created: Đăng thành công
-        create_failed: Đăng thất bại
+      create_failed: Đăng thất bại
+      created: Đăng thành công
     destroy:
-      deleted: Xoá thành công
       delete_failed: Xoá thất bại
+      deleted: Xoá thành công
     micropost:
       delete: Xoá
       posted_time: "%{time} trước."
@@ -60,6 +68,8 @@ vi:
       title: Quên mật khẩu
   please_log_in: Please log in.
   profile_updated: Cập nhật thành công
+  relationships:
+    user_not_found: User not found
   reset_failed: Cập nhật mật khẩu thất bại
   reset_successfully: Cập nhật mật khẩu mới thành công
   sessions:
@@ -78,9 +88,12 @@ vi:
       alert_image_size: Kích thước ảnh giới hạn là %{limit_size}MB. Vui lòng chọn ảnh có kích thước nhỏ hơn.
       compose_new_post: Soạn post mới...
       post: Đăng
+    stats:
+      followers: followers
+      following: following
     user_info:
       view_profile: Xem hồ sơ
-  should_be_less_than: "phải nhỏ hơn %{limit_size}MB"
+  should_be_less_than: phải nhỏ hơn %{limit_size}MB
   static_pages:
     about:
       book: Book
@@ -108,12 +121,27 @@ vi:
   unactivated: Account unactivated.
   unsuccess: Đăng ký không thành công!
   update_fails: Cập nhật thất bại
+  user_mailer:
+    account_activation:
+      activate: Kích hoạt
+      hi: Chào
+      title: Sample App
+      welcome: 'Chào mừng bạn đến với Sample App! Click vào đường link phía dưới để kích hoạt tài khoản:'
+    password_reset:
+      click_link: 'Để lấy lại mật khẩu, nhấn vào liên kết phía dưới:'
+      expire: Liên kế này sẽ hết hạn sau 2 giờ đồng hồ.
+      ignore: Nếu bạn không yêu cầu lấy lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn vẫn được giữ nguyên.
+      reset_password: Lấy lại mật khẩu
+      title: Lấy lại mật khẩu
+  user_not_found: Không tìm thấy người dùng!
   users:
     edit:
       change: Thay đổi
       save_changes: Lưu thay đổi
       title: Sửa người dùng
       update: Cập nhật thông tin cá nhân
+    follow:
+      submit: Theo dõi
     form:
       confirmation: Xác nhận mật khẩu
       name: Họ tên
@@ -125,6 +153,13 @@ vi:
       create_account: Tạo tài khoản
       signup: Đăng ký
       title: Đăng ký
+    show:
+      microposts: Microposts
+    show_follow:
+      microposts: Microposts
+      view_profile: Xem hồ sơ
+    unfollow:
+      unfollow: Bỏ theo dõi
     user:
       delete: Xóa
       sure: Bạn chắc chứ?

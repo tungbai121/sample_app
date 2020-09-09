@@ -1,6 +1,10 @@
 en:
   account_activation: Account activation
   activated: Account activated!
+  activerecord:
+    attributes:
+      micropost:
+        content: Content
   base_title: Ruby on Rails Tutorial Sample App
   cant_empty: can't be empty
   check_email: Please check your email to activate your account.
@@ -9,6 +13,10 @@ en:
   email_not_found: Email address not found!
   email_sent: Email sent with password reset instructions.
   expired: Password reset has expired.
+  followers:
+    followers: Followers
+  followings:
+    following: Following
   invalid: Invalid email/password combination!
   invalid_activation: Invalid activation link!
   invalid_user: Invalid user
@@ -35,14 +43,14 @@ en:
     correct_user:
       user_invalid: User invalid
     create:
-        created: Micropost created
         create_failed: Micropost create failed
+        created: Micropost created
     destroy:
       deleted: Micropost deleted
       delete_failed: Micropost delete failed
     micropost:
       delete: Delete
-      posted_time: "Posted %{time} ago."
+      posted_time: Posted %{time} ago.
       sure: You sure?
   must_be_valid_format: must be a valid image format
   not_found_user: User not found
@@ -60,6 +68,8 @@ en:
       title: Forgot password
   please_log_in: Please log in.
   profile_updated: Profile updated
+  relationships:
+    user_not_found: User not found
   reset_failed: Password reset failed
   reset_successfully: Password has been reset
   sessions:
@@ -78,9 +88,12 @@ en:
       alert_image_size: Maximum file size is %{limit_size}MB. Please choose a smaller file.
       compose_new_post: Compose new micropost...
       post: Post
+    stats:
+      followers: followers
+      following: following
     user_info:
       view_profile: View profile
-  should_be_less_than: "should be less than %{limit_size}MB"
+  should_be_less_than: should be less than %{limit_size}MB
   static_pages:
     about:
       book: Book
@@ -108,12 +121,27 @@ en:
   unactivated: Account unactivated.
   unsuccess: Register is unsuccessful!
   update_fail: Update failed
+  user_mailer:
+    account_activation:
+      activate: Activate
+      hi: Hi
+      title: Sample App
+      welcome: 'Welcome to the Sample App! Click on the link below to activate your account:'
+    password_reset:
+      click_link: 'To reset your password click the link below:'
+      expire: This link will expire in two hours.
+      ignore: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
+      reset_password: Reset password
+      title: Password reset
+  user_not_found: User not found!
   users:
     edit:
       change: Change
       save_changes: Save changes
       title: Edit user
       update: Update your profile
+    follow:
+      submit: Follow
     form:
       confirmation: Password confirmation
       name: Name
@@ -125,6 +153,13 @@ en:
       create_account: Create account
       signup: Sign up
       title: Sign up
+    show:
+      microposts: Microposts
+    show_follow:
+      microposts: Microposts
+      view_profile: View profile
+    unfollow:
+      unfollow: Unfollow
     user:
       delete: Delete
       sure: You sure?
