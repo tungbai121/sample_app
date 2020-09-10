@@ -21,3 +21,10 @@ users = User.order(:created_at).take 6
   content = Faker::Lorem.sentence 5
   users.each{|user| user.microposts.create! content: content}
 end
+
+users = User.all
+user = users.find_by email: "tungbai121@gmail.com"
+following = users[3..50]
+followers = users[4..40]
+following.each{|followed| user.follow followed}
+followers.each{|follower| follower.follow user}

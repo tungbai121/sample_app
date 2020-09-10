@@ -1,6 +1,7 @@
 gravatar:
   default_size: 80
   size: 50
+  small_size: 30
 image:
   accept_types: "image/jpeg,image/gif,image/png"
   height: 500
